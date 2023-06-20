@@ -1,0 +1,29 @@
+
+*{
+	-fx-font-family: 'Noto Sans KR','Nanum Gothic', sans-serif;
+	-fx-font-size:10;
+}
+
+AnchorPane{
+	-fx-background-color:white;
+}
+
+Label.title{
+	-fx-font-family: 'Noto Sans KR','Nanum Gothic', sans-serif;
+	-fx-text-fill:radial-gradient(
+		/*      X   Y*/
+		center 30% 50%,
+		radius 50%,
+		red,
+		black
+	);
+}
+
+Hyperlink{
+	-fx-text-fill: BLACK;
+	-fx-border-color: transparent;
+	-fx-padding: 4 0 4 0;
+}
+Hyperlink:hover{
+   -fx-text-fill: gray;
+}

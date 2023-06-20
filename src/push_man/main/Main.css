@@ -1,0 +1,13 @@
+/* push_man.main.main.css */
+.mainRoot{
+	-fx-background-color:transparent;
+}
+
+.loading{
+	-fx-font-family: 'Noto Sans KR', sans-serif;
+	-fx-font-size:40;
+	-fx-pref-width:200px;
+	-fx-font-weight:bold;
+	-fx-text-fill:BLACK;
+}
+
